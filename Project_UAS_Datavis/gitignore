@@ -1,0 +1,38 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environment ──────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ── ML model files (regenerate locally with train_model.py) ──
+*.pkl
+*.joblib
+
+# ── Streamlit cache ──────────────────────────────────────
+.streamlit/
+
+# ── Database / secrets ───────────────────────────────────
+*.env
+.env
+secrets.toml
+
+# ── OS files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+
+# ── Jupyter (just in case) ───────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
